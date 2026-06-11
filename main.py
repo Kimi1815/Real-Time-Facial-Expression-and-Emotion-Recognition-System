@@ -25,9 +25,6 @@ class FaceApp(ctk.CTk):
         self.sidebar = ctk.CTkFrame(self, width=180, corner_radius=0)
         self.sidebar.grid(row=0, column=0, sticky="nsew")
 
-        # Empty space or a small separator could go here if you wish to add something later
-        # For now, it is a clean, minimal side panel.
-
         # --- Main View ---
         self.main_view = ctk.CTkFrame(self, fg_color="transparent")
         self.main_view.grid(row=0, column=1, padx=30, pady=30, sticky="nsew")
